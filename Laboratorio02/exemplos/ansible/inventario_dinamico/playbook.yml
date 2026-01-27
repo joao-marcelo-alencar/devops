@@ -1,0 +1,7 @@
+---
+- name: Playbook de Teste para Inventário Dinâmico 
+  gather_facts: false
+  hosts: aws_ec2 
+  tasks:
+    - name: Executar comando shell 
+      command: echo "Olá Mundo"
