@@ -16,9 +16,9 @@ Este diretório contém playbooks Ansible para configurar as instâncias EC2 cri
 
 3. **Instâncias EC2 criadas**: Execute o Terraform no diretório `../../terraform/duas_instancias` primeiro
 
-4. **Chave SSH**: Arquivo `vockey.pem` com permissões corretas
+4. **Chave SSH**: Arquivo `labsuser.pem` com permissões corretas
    ```bash
-   chmod 400 vockey.pem
+   chmod 400 labsuser.pem
    ```
 
 5. **AWS CLI configurado**: Para obter outputs do Terraform

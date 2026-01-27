@@ -126,7 +126,7 @@ aws ec2 describe-security-groups --filters "Name=group-name,Values=devops"
 Após a criação, conecte-se via SSH:
 
 ```bash
-ssh -i /caminho/para/vockey.pem ubuntu@<IP_PUBLICO_DA_INSTANCIA>
+ssh -i ~/labsuser.pem ubuntu@<IP_PUBLICO_DA_INSTANCIA>
 ```
 
 > Substitua `<IP_PUBLICO_DA_INSTANCIA>` pelo endereço IP público da instância criada.
