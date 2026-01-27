@@ -58,6 +58,14 @@ O aluno deve instalar as ferramentas de linha de comando da AWS em seu ambiente 
 
 * **Instruções de instalação:** [Guia oficial da AWS CLI](https://docs.aws.amazon.com/pt_br/cli/latest/userguide/getting-started-install.html).
 
+Antes de seguir os passos do guia oficial da AWS, pode ser necessário instalar alguns pacotes:
+
+```bash
+sudo apt-get install curl unzip less ssh
+```
+
+Se sua versão do Ubuntu for a _desktop_, é provável que esses pacotes já estejam instalados.
+
 Após a instalação, recupere as credenciais disponíveis na seção **AWS Details** do AWS Academy e configure sua instalação local:
 
 1.  Execute o comando de configuração:
@@ -75,6 +83,7 @@ Após a instalação, recupere as credenciais disponíveis na seção **AWS Deta
 Utilize o console da AWS para criar uma máquina virtual com as seguintes especificações:
 * **Tipo:** `t2.micro`
 * **Sistema Operacional:** Ubuntu Server Linux 24.04
+* **Grupo de Segurança:** Garanta que a porta 22/tcp está liberada.
 * **Arquitetura:** x86
 * **Armazenamento:** 60 GB
 
