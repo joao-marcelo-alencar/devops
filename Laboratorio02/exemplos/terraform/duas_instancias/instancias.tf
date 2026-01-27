@@ -20,3 +20,23 @@ resource "aws_instance" "servidorbancodedados" {
   }
 }
 
+output "web_server_public_ip" {
+  description = "Endereço IP público do servidor web"
+  value       = aws_instance.servidorweb.public_ip
+}
+
+output "web_server_id" {
+  description = "ID da instância do servidor web"
+  value       = aws_instance.servidorweb.id
+}
+
+output "database_server_public_ip" {
+  description = "Endereço IP público do servidor de banco de dados"
+  value       = aws_instance.servidorbancodedados.public_ip
+}
+
+output "database_server_id" {
+  description = "ID da instância do servidor de banco de dados"
+  value       = aws_instance.servidorbancodedados.id
+}
+

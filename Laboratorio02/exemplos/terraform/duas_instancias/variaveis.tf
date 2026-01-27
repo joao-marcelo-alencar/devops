@@ -10,7 +10,6 @@ variable "nome_instancia_bd" {
   default     = "InstanciaMySql"
 }
 
-
 output "public_ip_web" {
   value       = aws_instance.servidorweb.public_ip
   description = "IP Publico do Servidor Web"
