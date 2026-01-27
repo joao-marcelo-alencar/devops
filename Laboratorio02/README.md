@@ -44,9 +44,9 @@ O conhecimento praticado será importante para as etapas posteriores da discipli
 ### Atividade 2 (10 min.) 
 
 Instale o Terraform e o Ansible na sua máquina local. 
-Você pode utilizar os scripts no repositório da disciplina ou fazer uma instalação personalizada de acordo com sua instalação de Linux. 
+Você pode utilizar os _scripts_ no repositório da disciplina ou fazer uma instalação personalizada de acordo com sua instalação de Linux. 
 Para comprovar a instalação, recupere as credenciais do AWS Academy e execute os exemplos apresentados em aula. 
-Verifique se o servidor web foi carregado para comprar o sucesso da instalação. 
+Verifique se o servidor _web_ foi carregado para comprar o sucesso da instalação. 
 
 **Referências:** 
 * https://medium.com/@sriniv.v29/terraform-introduction-and-installation-on-linux-ubuntu-debian-31486f51fb04 
@@ -70,7 +70,7 @@ Depois, execute o arquivo e verifique pelo console web da AWS se os recursos for
 
 ### Atividade 4 (40 min.) 
 
-Crie um playbook Ansible para realizar as seguintes tarefas: 
+Crie um _playbook_ Ansible para realizar as seguintes tarefas: 
 
 * Instalar o cliente PostgreSQL na instância criada. 
 * Configurar a conexão com o banco RDS. 
