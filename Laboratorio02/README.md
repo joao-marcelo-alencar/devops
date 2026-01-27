@@ -74,9 +74,9 @@ Crie um _playbook_ Ansible para realizar as seguintes tarefas:
 
 * Instalar o cliente PostgreSQL na instância criada. 
 * Configurar a conexão com o banco RDS. 
-* Executar um comando que crie um banco chamado `devops`. 
+* Executar um comando que crie uma tabela chamada `usuarios`. 
 
-Não é necessário criar nenhuma tabela no banco. O importante é apenas confirmar que a instância consegue acessar o banco. 
+Não é necessário inserir nenhum dado no banco. O importante é apenas confirmar que a instância consegue acessar o banco. 
 
 **Referências:** 
 * https://docs.ansible.com/ansible/latest/collections/ansible/builtin/apt_module.html 
