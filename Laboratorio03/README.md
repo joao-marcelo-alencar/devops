@@ -68,7 +68,7 @@ Nesta atividade vamos praticar a criação, navegação e fusão de _branches_ p
 
 O código inserido pode ser qualquer texto mesmo, o importante é verificar como Git lida com conflitos entre os _branches_.
 
-### Atividade 3 (30 min.)
+### Atividade 3 (25 min.)
 
 Agora sim vamos conectar repositório local a um repositório remoto no GitHub e sincronizar o trabalho.
 
@@ -95,7 +95,7 @@ Agora sim vamos conectar repositório local a um repositório remoto no GitHub e
 
 Veja que utilizamos o nome `origin` para representar a origem remota do GitHub. Mas podemos ter mais de uma origem remota, com nomes diferentes e acrescentar aos comandos `git push` ou `git pull` o nome a origem a ser usada.
 
-### Atividade 4 (40 min.)
+### Atividade 4 (42 min.)
 
 Para complementar o conteúdo das aulas, vamos compreender e praticar o fluxo de trabalho de _pull requests_ e o uso de _tags_ para versionamento.
 
