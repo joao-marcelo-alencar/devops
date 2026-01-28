@@ -54,7 +54,7 @@ Nesta atividade, você usará o Terraform para provisionar uma máquina virtual 
 
 * Crie um novo `branch` chamado `terraform-setup` para trabalhar na infraestrutura.
 * No diretório `iac_lab`, crie um arquivo chamado `main.tf` com o código Terraform necessário para provisionar uma instância EC2 de sua escolha (por exemplo, t2.micro executando Ubuntu Linux).
-* Inclua a configuração de um grupo de segurança que permita acesso SSH (porta 22).
+* Inclua a configuração de um grupo de segurança que permita acesso SSH (porta 22) e HTTP (porta 80).
 * Execute `terraform init` para inicializar o diretório de trabalho do Terraform.
 * Execute `terraform plan` para gerar um plano de execução e visualizar os recursos que serão criados.
 * Execute `terraform apply` e confirme para criar a infraestrutura na AWS.
@@ -79,7 +79,7 @@ Agora, você usará o Ansible para configurar a instância que você acabou de p
 **Prova de Conclusão:** Envie para o avaliador uma captura de tela do seu terminal mostrando a saída do comando `ansible-playbook` e uma captura de tela do navegador mostrando a página inicial do NGINX na URL da sua instância.
 A saída do `ansible-playbook` pode ser as últimas linhas apenas.
 
-### Atividade 4 (40 min.) – 3,0 pontos
+### Atividade 4 (15 min.) – 3,0 pontos
 
 Nesta etapa final, você integrará suas alterações ao `branch` principal e removerá os recursos criados para evitar cobranças.
 
